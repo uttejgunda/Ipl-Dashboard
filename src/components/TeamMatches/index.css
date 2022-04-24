@@ -1,0 +1,68 @@
+.team-matches-bg-container {
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.RCB {
+  background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+}
+
+.KKR {
+  background-image: linear-gradient(to bottom, #5755a7, #1e293b);
+}
+
+.KXP {
+  background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+}
+
+.CSK {
+  background-image: linear-gradient(to bottom, #f7db00, #1e293b);
+}
+
+.RR {
+  background-image: linear-gradient(to bottom, #13418b, #da237b);
+}
+
+.MI {
+  background-image: linear-gradient(to bottom, #13418b, #1e293b);
+}
+
+.SH {
+  background-image: linear-gradient(to bottom, #f26d22, #1e293b);
+}
+
+.DC {
+  background-image: linear-gradient(to bottom, #13418b, #f26d22, #f26d22);
+}
+
+.team-banner {
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-banner {
+    width: 70%;
+  }
+}
+
+.sub-title {
+  font-family: 'bree serif';
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 500;
+  align-self: flex-start;
+  margin-top: 20px;
+}
+
+.match-cards-list-container {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
